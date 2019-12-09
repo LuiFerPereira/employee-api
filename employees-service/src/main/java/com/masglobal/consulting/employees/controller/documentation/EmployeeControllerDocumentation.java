@@ -13,7 +13,7 @@ import java.util.List;
         tags = "Employee controller",
         produces = "application/json",
         consumes = "application/json",
-        description = "This controller allow to get employees filtering by identifier")
+        description = "This controller allow to get employees from remote service")
 public interface EmployeeControllerDocumentation {
 
     @ApiOperation(
